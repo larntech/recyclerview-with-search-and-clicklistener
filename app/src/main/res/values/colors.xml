@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3d95d0</color>
+    <color name="colorPrimaryDark">#489855</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorWhite">#fff</color>
+
+    <!--text color -->
+    <color name="textColor">#273d52</color>
+    <color name="headerColor">#145795</color>
+
+    <!-- gradient color -->
+    <color name="startColor">#006797</color>
+    <color name="endColor">#489855</color>
+    <color name="centerColor">#006797</color>
+    <color name="userRow">#403fc68b</color>
+
+    <!-- icon color -->
+    <color name="iconColor">#145798</color>
+
+</resources>

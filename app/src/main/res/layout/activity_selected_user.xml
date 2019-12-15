@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectedUserActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="?attr/actionBarSize">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selected User"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            />
+    </androidx.appcompat.widget.Toolbar>
+    <TextView
+        android:id="@+id/selectedUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selected User"
+        android:textColor="@color/headerColor"
+        android:textSize="16sp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        />
+</RelativeLayout>
